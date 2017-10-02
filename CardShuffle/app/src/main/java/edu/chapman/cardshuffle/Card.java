@@ -1,7 +1,7 @@
 package edu.chapman.cardshuffle;
 
 /**
- * Created by Sea Air AHHHHHHHH on 10/2/2017.
+ * Created by Sierra on 10/2/2017.
  */
 
 public class Card
