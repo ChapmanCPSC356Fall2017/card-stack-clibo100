@@ -6,8 +6,56 @@
     tools:context="edu.chapman.cardshuffle.MainActivity">
 
     <TextView
+        android:id="@+id/uppertext"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:textSize="50sp"
+        android:text="@string/a"
+        android:paddingStart="20dp"
+        android:paddingLeft="20dp"
+        android:paddingEnd="20dp"
+        android:textColor="#ff0000"
+
+        />
+
+    <ImageView
+        android:id="@+id/upperimage"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:src="@drawable/heart"
+        android:layout_below="@+id/uppertext"
+        android:contentDescription="@string/description"
+        />
+    <ImageView
+        android:id="@+id/centerimage"
+        android:layout_width="match_parent"
+        android:layout_height="240dp"
+        android:src="@drawable/heart"
+        android:layout_below="@+id/upperimage"
+        android:padding="50dp"
+        android:contentDescription="@string/description"
+        />
+    <ImageView
+        android:id="@+id/lowerimage"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:src="@drawable/heart"
+        android:layout_below="@+id/centerimage"
+        android:rotation="180"
+        android:layout_marginLeft="300dp"
+        android:contentDescription="@string/description"
+        />
+
+    <TextView
+        android:id="@+id/lowertext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="50sp"
+        android:rotation="180"
+        android:text="@string/a"
+        android:layout_below="@+id/lowerimage"
+        android:layout_marginLeft="320dp"
+        android:textColor="#ff0000"
 
         />
 
