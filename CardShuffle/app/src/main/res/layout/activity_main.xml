@@ -5,6 +5,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:onClick="onClickCard"
+    android:animateLayoutChanges="true"
     tools:context="edu.chapman.cardshuffle.MainActivity">
 
     <TextView
