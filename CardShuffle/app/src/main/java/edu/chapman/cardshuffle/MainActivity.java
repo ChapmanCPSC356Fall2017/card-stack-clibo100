@@ -93,6 +93,51 @@ public class MainActivity extends AppCompatActivity {
             uppertext.setText("A");
             lowertext.setText("A");
         }
+        else if (number == 2)
+        {
+            uppertext.setText("2");
+            lowertext.setText("2");
+        }
+        else if (number == 3)
+        {
+            uppertext.setText("3");
+            lowertext.setText("3");
+        }
+        else if (number == 4)
+        {
+            uppertext.setText("4");
+            lowertext.setText("4");
+        }
+        else if (number == 5)
+        {
+            uppertext.setText("5");
+            lowertext.setText("5");
+        }
+        else if (number == 6)
+        {
+            uppertext.setText("6");
+            lowertext.setText("6");
+        }
+        else if (number == 7)
+        {
+            uppertext.setText("7");
+            lowertext.setText("7");
+        }
+        else if (number == 8)
+        {
+            uppertext.setText("8");
+            lowertext.setText("8");
+        }
+        else if (number == 9)
+        {
+            uppertext.setText("9");
+            lowertext.setText("9");
+        }
+        else if (number == 10)
+        {
+            uppertext.setText("10");
+            lowertext.setText("10");
+        }
         else if (number == 11)
         {
             uppertext.setText("J");
@@ -107,11 +152,6 @@ public class MainActivity extends AppCompatActivity {
         {
             uppertext.setText("K");
             lowertext.setText("K");
-        }
-        else
-        {
-            uppertext.setText(number);
-            lowertext.setText(number);
         }
 
     }
